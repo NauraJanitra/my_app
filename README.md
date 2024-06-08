@@ -25,4 +25,6 @@ Things you may want to cover:
 # my_app
 Commit Steps
 1. menyiapkan
-2. 
+2. membuat manajement artikelrails g scaffold User full_name:string email
+3. membuat kerangka aplikasi
+4. mengkonversi dari data yang diketik oleh generator menjadi data yang akana di simpan oleh database
