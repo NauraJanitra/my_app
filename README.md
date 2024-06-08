@@ -23,3 +23,6 @@ Things you may want to cover:
 
 * ...
 # my_app
+Commit Steps
+1. menyiapkan
+2. 
