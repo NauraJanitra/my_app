@@ -28,3 +28,4 @@ Commit Steps
 2. membuat manajement artikelrails g scaffold User full_name:string email
 3. membuat kerangka aplikasi
 4. mengkonversi dari data yang diketik oleh generator menjadi data yang akana di simpan oleh database
+5. membuat halaman public
