@@ -29,3 +29,4 @@ Commit Steps
 3. membuat kerangka aplikasi
 4. mengkonversi dari data yang diketik oleh generator menjadi data yang akana di simpan oleh database
 5. membuat halaman public
+6. membuat list article di halaman index
