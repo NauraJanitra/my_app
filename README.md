@@ -32,4 +32,5 @@ Commit Steps
 6. membuat list article di halaman index
 7. membuat halaman baca
 8. membuat aksi untuk menambahkkan komentar
-9. menampilkan komen
+9. menampilkan komen di halaman baca
+10. 
