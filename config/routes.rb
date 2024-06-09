@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'home/index'
+  get '/read', to: 'home#read', as: "read"
   resources :articles
   resources :users
 

@@ -30,3 +30,4 @@ Commit Steps
 4. mengkonversi dari data yang diketik oleh generator menjadi data yang akana di simpan oleh database
 5. membuat halaman public
 6. membuat list article di halaman index
+7. membuat halaman baca

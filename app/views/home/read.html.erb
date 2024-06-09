@@ -1,0 +1,10 @@
+<h1>My blog</h1>
+<p>Welcome to My blog</p>
+
+<h1><%= @article.title %></h1>
+<p> <%= @article.description %></p>
+
+<small>
+Oleh <%= article.user.full_name %>
+Pada <%= article.created_at.to_s(:short) %>
+</small>
