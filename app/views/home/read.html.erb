@@ -2,9 +2,20 @@
 <p>Welcome to My blog</p>
 
 <h1><%= @article.title %></h1>
-<p> <%= @article.description %></p>
+<p><%= @article.description %></p>
 
 <small>
-Oleh <%= article.user.full_name %>
-Pada <%= article.created_at.to_s(:short) %>
+Oleh <%= @article.user.full_name %>
+Pada <%= @article.created_at.to_s(:short) %>
 </small>
+
+
+<div>
+<%= form_tag save_comment_path(article_id: @article.id) do %>
+    <span> Tambahkan Komentar </span>
+    <br/>
+    <%= text_area_tag 'comment', '' %>
+    <br/>
+    <%= submit_tag 'kirim'%>
+<%- end %>
+</div>

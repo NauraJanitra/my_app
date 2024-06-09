@@ -31,3 +31,5 @@ Commit Steps
 5. membuat halaman public
 6. membuat list article di halaman index
 7. membuat halaman baca
+8. membuat aksi untuk menambahkkan komentar
+9. menampilkan komen
