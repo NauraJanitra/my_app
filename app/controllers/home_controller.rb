@@ -22,6 +22,7 @@ class HomeController < ApplicationController
   end
 
   def search
-    @articles = Article.where(title: params[:keyword])
+    keyword = params[:keyword]
+    @articles = Article.where("title LIKE '%#{keyword}%'")
   end
 end

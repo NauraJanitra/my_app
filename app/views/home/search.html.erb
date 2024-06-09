@@ -1,15 +1,16 @@
-<h2> Search Article</h2>
-
+<h2>Search Article</h2>
 <div>
 <%= form_tag search_path, method: 'get' do %>
     <span> Search keyword </span>
     <br/>
-    <%= text_field 'keyword', '' %>
+    <%= text_area_tag 'keyword', '' %>
     <br/>
     <%= submit_tag 'search'%>
-<%- end %>
-</div>
 
+<%- end %>
+git
+</div>
+<small>keyword: <%= params[:keyword] %></small>
 <ul>
     <%- for article in @articles do %>
     <li>
@@ -21,3 +22,5 @@
     </li>
     <%- end %>
 </ul>
+<div>
+

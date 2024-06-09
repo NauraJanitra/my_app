@@ -34,3 +34,4 @@ Commit Steps
 8. membuat aksi untuk menambahkkan komentar
 9. menampilkan komen di halaman baca
 10. membuat aksi search (exact keyword)
+11. membuat search potongan dari string
