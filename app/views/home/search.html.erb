@@ -1,0 +1,23 @@
+<h2> Search Article</h2>
+
+<div>
+<%= form_tag search_path, method: 'get' do %>
+    <span> Search keyword </span>
+    <br/>
+    <%= text_field 'keyword', '' %>
+    <br/>
+    <%= submit_tag 'search'%>
+<%- end %>
+</div>
+
+<ul>
+    <%- for article in @articles do %>
+    <li>
+        <strong><%= link_to article.title, read_path(article_id: article.id) %></strong>
+        <small>
+        Oleh <%= article.user.full_name %>
+        Pada <%= article.created_at.to_s(:short) %>
+        </small>
+    </li>
+    <%- end %>
+</ul>
