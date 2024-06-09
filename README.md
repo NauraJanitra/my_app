@@ -35,3 +35,6 @@ Commit Steps
 9. menampilkan komen di halaman baca
 10. membuat aksi search (exact keyword)
 11. membuat search potongan dari string
+12. memperbaiki halaman administrator
+13. menambahkan edit
+14. menambahkan fungsi log in
